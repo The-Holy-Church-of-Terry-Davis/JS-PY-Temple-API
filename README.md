@@ -48,5 +48,58 @@ x = response.json()
 print(x['quotes']) # If more than one quote
 print(x['quote']) #If there's only one quote
 ```
+## Javascript
+
+## Endpoints
+```js
+var request = require('request');
+
+var options = {
+    url: 'https://temple.xslendi.xyz/api/v1/endpoints'
+};
+
+function callback(error, response, body) {
+    if (!error && response.statusCode == 200) {
+        console.log(body['endpoints']);
+    }
+}
+
+request(options, callback);
+```
+
+## Godword
+```js
+var request = require('request');
+
+var options = {
+    url: 'https://temple.xslendi.xyz/api/v1/godword?amount=10'
+};
+
+function callback(error, response, body) {
+    if (!error && response.statusCode == 200) {
+        console.log(body['words']);
+    }
+}
+
+request(options, callback);
+```
+
+## Terry Quotes
+```js
+var request = require('request');
+
+var options = {
+    url: 'https://temple.xslendi.xyz/api/v1/quote?amount=2'
+};
+
+function callback(error, response, body) {
+    if (!error && response.statusCode == 200) {
+        console.log(body['quote']);
+        console.log(body['quotes']);
+    }
+}
+
+request(options, callback);
+```
 
 This won't be a Python package because of it's size, but yeah you could always use the above stated examples in your code!
