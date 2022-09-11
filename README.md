@@ -1,10 +1,11 @@
-# PyTempleAPI
-Python wrapper for the Temple API
+# TempleAPI
+Python and Javascript wrapper for the Temple API
 (WIP)
 
 ## What's this?
 Python wrapper for [TEMPLE API](https://temple.xslendi.xyz/docs)
 
+## Python
 
 ## Endpoints
 
