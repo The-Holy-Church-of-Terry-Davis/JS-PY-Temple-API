@@ -5,7 +5,6 @@ Python wrapper for the Temple API
 ## What's this?
 Python wrapper for [TEMPLE API](https://temple.xslendi.xyz/docs)
 
-## Python
 
 ## Endpoints
 
