@@ -102,4 +102,4 @@ function callback(error, response, body) {
 request(options, callback);
 ```
 
-This won't be a Python package because of it's size, but yeah you could always use the above stated examples in your code!
+This won't be a Python or Javascript package because of it's size, but yeah you could always use the above stated examples in your code!
